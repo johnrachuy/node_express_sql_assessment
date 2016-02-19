@@ -1,0 +1,7 @@
+CREATE TABLE animal
+    (
+        id SERIAL NOT NULL,
+        animal character varying(100) NOT NULL,
+        quantity SMALLINT NOT NULL,
+        CONSTRAINT people_pkey PRIMARY KEY (id)
+    );
